@@ -1,0 +1,23 @@
+name: Yet another code quality check
+
+on:
+  [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.9
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install black pylint
+      - name: Black runner
+        run: |
+          black --diff --check .
+      - name: Lint with pylint
+        run: |
+          pylint --fail-under=8 --recursive=y --rcfile=.pylintrc .
