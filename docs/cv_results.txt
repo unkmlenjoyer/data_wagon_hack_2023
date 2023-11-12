@@ -1,0 +1,101 @@
+# ----------------------------------
+# -------------v1-------------------
+
+# MONTH CLF
+# Trial # 0: fold # 0, score train: 0.6786055593129637, score valid: 0.6611890236264374
+# Trial # 0: fold # 1, score train: 0.6649752539096638, score valid: 0.6560282935326784
+# Trial # 0: fold # 2, score train: 0.6678261552467547, score valid: 0.6524689050501199
+# Trial # 0: fold # 3, score train: 0.6695647904479617, score valid: 0.6540674805360456
+# Trial # 0: fold # 4, score train: 0.6715767810891389, score valid: 0.6515391718369485
+# score train: 0.6705097080012965 +/- 0.004591425924412159
+# score valid: 0.655058574916446 +/- 0.0034233787901398766
+
+# 0.653496438840056
+
+# threshold	precision	recall	    f1_score
+# 0.69697	0.624046	0.609695	0.616787
+
+# 	0.701702	0.628939	0.607831	0.618205 - 1000
+
+#               precision   recall    f1-score    support
+
+#            0       0.98      0.98      0.98      7742
+#            1       0.59      0.58      0.59       402
+
+#     accuracy                           0.96      8144
+#    macro avg       0.78      0.78      0.78      8144
+# weighted avg       0.96      0.96      0.96      8144
+
+# 0.6573261188596414
+
+# -------------------
+
+# DAY CLF
+# Trial # 0: fold # 0, score train: 0.44943027131861524, score valid: 0.4680614420527784
+# Trial # 0: fold # 1, score train: 0.47129864734847443, score valid: 0.40628828202207007
+# Trial # 0: fold # 2, score train: 0.4191263856212902, score valid: 0.43898500042159744
+# Trial # 0: fold # 3, score train: 0.4207350068035721, score valid: 0.42466838044398514
+# Trial # 0: fold # 4, score train: 0.46642999928377316, score valid: 0.4246820795342589
+# score train: 0.44540406207514505 +/- 0.02203591845445296
+# score valid: 0.432537036894938 +/- 0.020572665541035966
+
+# 0.45949210652112715
+
+# threshold	precision   recall	f1_score
+# 0.656566	0.444613	0.55283	0.492851
+
+# 	threshold	precision	recall	f1_score
+# 655	0.655656	0.444109	0.554717	0.493289 - 1000
+
+# 0.42159736190809927
+
+# precision    recall  f1-score   support
+
+#            0       0.99      0.99      0.99      8011
+#            1       0.44      0.50      0.47       133
+
+#     accuracy                           0.98      8144
+#    macro avg       0.72      0.75      0.73      8144
+# weighted avg       0.98      0.98      0.98      8144
+
+# ----------------------------------
+# -------------v2-------------------
+
+# %%
+# Trial # 0: fold # 0, score train: 0.66752801611983, score valid: 0.667384234623492
+# Trial # 0: fold # 1, score train: 0.6669530166198945, score valid: 0.6609049695757615
+# Trial # 0: fold # 2, score train: 0.6676902947402807, score valid: 0.6552319994099485
+# Trial # 0: fold # 3, score train: 0.6679885555575408, score valid: 0.6566206338540155
+# Trial # 0: fold # 4, score train: 0.6670124276852608, score valid: 0.6570360769075257
+# score train: 0.6674344621445614 +/- 0.0003977750750580386
+# score valid: 0.6594355828741486 +/- 0.004397541193019565
+
+# 0.6608842132890751
+
+# threshold	precision	recall	    f1_score
+# 0.646465	0.582778	0.651958	0.61543
+
+# 0.6645195962615575
+
+#                    precision recall   f1-score   support
+
+#            0       0.98      0.97      0.98      7742
+#            1       0.56      0.66      0.61       402
+
+#     accuracy                           0.96      8144
+#    macro avg       0.77      0.82      0.79      8144
+# weighted avg       0.96      0.96      0.96      8144
+
+# %%
+# Trial # 0: fold # 0, score train: 0.45069270063125605, score valid: 0.47183660348756573
+# Trial # 0: fold # 1, score train: 0.4832869790839452, score valid: 0.4162309596763879
+# Trial # 0: fold # 2, score train: 0.4585004920933774, score valid: 0.47043223392371364
+# Trial # 0: fold # 3, score train: 0.43139471800531387, score valid: 0.44295008718107914
+# Trial # 0: fold # 4, score train: 0.4550734718039219, score valid: 0.42303412627622305
+# score train: 0.45578967232356293 +/- 0.0166436551436573
+# score valid: 0.44489680210899396 +/- 0.023157322782357572
+
+# 0.46801270241287196
+
+# threshold	precision	recall	f1_score
+# 0.717172	0.511022	0.481132	0.495627
