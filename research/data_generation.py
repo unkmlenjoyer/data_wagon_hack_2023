@@ -361,6 +361,7 @@ data_train = pd.merge(
 )
 
 # %%
+# Сохранение данных для моделировани
 data_predict.to_feather("../data/processed/data_predict.feather")
 data_train[~data_train.month_y.isna()].reset_index(drop=True).to_feather(
     "../data/processed/data_train.feather"
