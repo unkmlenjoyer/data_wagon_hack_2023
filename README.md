@@ -9,7 +9,7 @@
 
 Решение нашей команды (`fit_predict`) заняло 8 место из более 50 команд на либерборде.
 
-F1 = 50.55443 (публичный скор), 0.55730 (приватный срок)
+F1 = 0.55443 (публичный скор), 0.55730 (приватный срок)
 
 ### 2. Структура проекта
 -----
@@ -43,7 +43,7 @@ The aim of project is development system for prediction railway cars repair time
 
 Our team's solution (`fit_predict`) took 8th place out of more than 50 teams on the leaderboard.
 
-F1 = 50.55443 (public score), 0.55730 (private score)
+F1 = 0.55443 (public score), 0.55730 (private score)
 
 ### 2. Project structure
 -----
